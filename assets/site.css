@@ -690,3 +690,4 @@ a.fc:hover{transform:translateY(-4px)}
 .lsph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s}
 .lsph img.on{opacity:1}
 .row2 .chain{flex-wrap:nowrap;gap:4px}.row2 .chain .n{width:50px}.row2 .chain .ar{width:16px}
+.brand img{width:20px;height:20px;border-radius:5px;display:block;flex:none}
