@@ -691,3 +691,9 @@ a.fc:hover{transform:translateY(-4px)}
 .lsph img.on{opacity:1}
 .row2 .chain{flex-wrap:nowrap;gap:4px}.row2 .chain .n{width:50px}.row2 .chain .ar{width:16px}
 .brand img{width:22px;height:22px;display:block;flex:none}
+/* tinted heroes that follow light/dark */
+.phero.tint{--hbg:linear-gradient(180deg,color-mix(in srgb,var(--tc) 18%,var(--bg)),var(--bg))}
+.phero.tint .ptag{color:color-mix(in srgb,var(--tc) 80%,#000)}
+.phero.tint .lead{color:color-mix(in srgb,var(--text) 78%,var(--bg))}
+[data-theme=dark] .phero.tint{--hbg:linear-gradient(180deg,color-mix(in srgb,var(--tc) 22%,#000),var(--bg))}
+[data-theme=dark] .phero.tint .ptag{color:var(--tc2)}
