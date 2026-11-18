@@ -697,3 +697,4 @@ a.fc:hover{transform:translateY(-4px)}
 .phero.tint .lead{color:color-mix(in srgb,var(--text) 78%,var(--bg))}
 [data-theme=dark] .phero.tint{--hbg:linear-gradient(180deg,color-mix(in srgb,var(--tc) 22%,#000),var(--bg))}
 [data-theme=dark] .phero.tint .ptag{color:var(--tc2)}
+.phero.img .bgimg{object-fit:contain;max-height:80vh;background:#000;margin:0 auto}
