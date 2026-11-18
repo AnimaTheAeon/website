@@ -44,43 +44,50 @@
 </div>
 <main id="top">
 
-<div class="pnav" style="--acc:#d9822b"><div class="in"><b>Hammersmith</b><a href="#overview">Overview</a><a href="#edit">What you can edit</a><a href="#specs">Specs</a><a class="buy" href="https://github.com/AnimaTheAeon/HoH2SaveEditor/releases/download/latest/Hammersmith.exe" target="_blank" rel="noopener">Download</a></div></div>
-<header class="phero dk" id="overview" style="--hbg:radial-gradient(80% 70% at 50% 10%,#4a2a0c,#120a04 60%,#000);--gl:#ff9a3c">
-  <div class="glow" style="opacity:.35"></div>
-  <div class="wrap">
-    <div class="rv"><span class="ico xl" data-icon="hoh"></span></div>
-    <h1 class="rv">Hammersmith</h1>
+<div class="pnav" style="--acc:#d9822b"><div class="in"><b>Hammersmith</b><a href="#overview">Overview</a><a href="#edit">What you can edit</a><a href="#safety">Safety</a><a href="#specs">Specs</a><a class="buy" href="https://github.com/AnimaTheAeon/HoH2SaveEditor/releases/download/latest/Hammersmith.exe" target="_blank" rel="noopener">Download</a></div></div>
+<header class="phero img dk" id="overview">
+  <img class="bgimg" src="img/hammersmith-title-card.jpg" alt="Hammersmith, save editor for Heroes of Hammerwatch II">
+  <div class="ov"><div class="wrap">
     <p class="ptag rv" style="color:#ffc27a">Forge a better save.</p>
-    <p class="lead rv">A tiny save editor for Heroes of Hammerwatch II, written in Rust. It finds your Steam saves by itself and shows real names read live from the game.</p>
-    <div class="acts rv"><a class="asbtn" href="https://github.com/AnimaTheAeon/HoH2SaveEditor/releases/download/latest/Hammersmith.exe" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" style="fill:#fff;stroke:none"><path d="M3 5.2l7.5-1v7.3H3zM11.5 4l9.5-1.3v8.8h-9.5zM3 12.5h7.5v7.3L3 18.8zM11.5 12.5H21v8.8l-9.5-1.3z"/></svg><span><small>Download for</small>Windows</span></a></div>
-  </div>
-  <div class="shotw rv"><div class="looks" data-looks><div class="win lookwin"><div class="tb"><em><i style="--c:var(--achoh)"></i>Hammersmith</em><span class="wc">–▢✕</span></div><div class="lookimgs" style="aspect-ratio:1180/780"><img class="on" src="img/hammersmith-hero.jpg" alt="Hammersmith: Heroes"><img class="" src="img/hammersmith-gear.jpg" alt="Hammersmith: Gear"><img class="" src="img/hammersmith-town.jpg" alt="Hammersmith: Town"><img class="" src="img/hammersmith-backups.jpg" alt="Hammersmith: Backups"></div></div><div class="tabs looktabs" role="tablist"><button type="button" class="on" data-i="0">Heroes</button><button type="button" class="" data-i="1">Gear</button><button type="button" class="" data-i="2">Town</button><button type="button" class="" data-i="3">Backups</button></div></div></div>
+    <p class="lead rv">A tiny, single-file save editor for Heroes of Hammerwatch II. It finds your Steam saves by itself and shows real item, trinket, skill and building names read straight from your game, so you never type an ID.</p>
+    <div class="acts rv"><a class="asbtn" href="https://github.com/AnimaTheAeon/HoH2SaveEditor/releases/download/latest/Hammersmith.exe" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" style="fill:#fff;stroke:none"><path d="M3 5.2l7.5-1v7.3H3zM11.5 4l9.5-1.3v8.8h-9.5zM3 12.5h7.5v7.3L3 18.8zM11.5 12.5H21v8.8l-9.5-1.3z"/></svg><span><small>Download for</small>Windows</span></a><div class="tpills"><span class="pill">Windows</span><span class="pill">Steam</span></div></div>
+  </div></div>
 </header>
+<section class="sec dk" style="padding-top:40px;--acc:#d9822b">
+  <div class="wrap"><div class="rv" style="max-width:1080px;margin:0 auto"><div class="looks" data-looks><div class="win lookwin"><div class="tb"><em><i style="--c:var(--achoh)"></i>Hammersmith</em><span class="wc">–▢✕</span></div><div class="lookimgs" style="aspect-ratio:1600/1000"><img class="on" src="img/hammersmith-town.jpg" alt="Hammersmith: Town"><img class="" src="img/hammersmith-hero.jpg" alt="Hammersmith: Heroes"><img class="" src="img/hammersmith-gear.jpg" alt="Hammersmith: Gear"><img class="" src="img/hammersmith-add-trinket.jpg" alt="Hammersmith: Add trinkets"><img class="" src="img/hammersmith-backups.jpg" alt="Hammersmith: Backups"><img class="" src="img/hammersmith-advanced.jpg" alt="Hammersmith: Advanced"></div></div><div class="tabs looktabs" role="tablist"><button type="button" class="on" data-i="0">Town</button><button type="button" class="" data-i="1">Heroes</button><button type="button" class="" data-i="2">Gear</button><button type="button" class="" data-i="3">Add trinkets</button><button type="button" class="" data-i="4">Backups</button><button type="button" class="" data-i="5">Advanced</button></div></div></div></div>
+</section>
 <section class="sec" id="edit" style="--acc:#d9822b">
   <div class="wrap rows">
-    <div class="row2 rv"><div><span class="k">Town</span><h2>Stock the vault.</h2><p>Gold, wood, stone, iron, crystals, dust and ore, plus your NG+ level, and an overview of buildings, blueprints and stash.</p></div><div class="bigshot"><img src="img/hammersmith-town.jpg" alt="Town editor"></div></div>
-    <div class="row2 rev rv"><div><span class="k">Heroes</span><h2>Every hero, every stat.</h2><p>Name, level, XP, NG+, stats, elixirs, unspent points, revives, materials, equipped gear, inventory, trinkets and skill levels.</p></div><div class="bigshot"><img src="img/hammersmith-gear.jpg" alt="Gear editor"></div></div>
+    <div class="row2 rv"><div><span class="k">Town</span><h2>Stock the vault.</h2><p>Gold, Wood, Stone, Iron, Crystals, Dust and Ore, each with a one-click Max. Change your New Game+ level and town name, and see your buildings, blueprints and stash at a glance.</p></div><div class="bigshot"><img src="img/hammersmith-town.jpg" alt="Town editor"></div></div>
+    <div class="row2 rev rv"><div><span class="k">Heroes</span><h2>Every hero, every stat.</h2><p>Name, level, experience and New Game+. Unspent stat and skill points, rerolls, dash charges, and Revive for fallen heroes. Strength, Dexterity, Intelligence, Vitality and Focus, plus every skill level.</p></div><div class="bigshot"><img src="img/hammersmith-hero.jpg" alt="Hero editor"></div></div>
+    <div class="row2 rv"><div><span class="k">Gear</span><h2>Tap an item. Make it legendary.</h2><p>Change any equipped or inventory item’s quality from Common to Legendary, its item level and its upgrade level, or delete it. Rarity colors and modifier names included.</p></div><div class="bigshot"><img src="img/hammersmith-gear.jpg" alt="Gear editor"></div></div>
+    <div class="row2 rev rv"><div><span class="k">Add items</span><h2>Search it. Add it.</h2><p>Find any item or trinket by name and add it in one click.</p></div><div class="bigshot"><img src="img/hammersmith-add-trinket.jpg" alt="Adding a trinket"></div></div>
+    <div class="row2 rv"><div><span class="k">Advanced</span><h2>Every value, if you want it.</h2><p>A raw editor for every value in the save, for anything the main screens don’t cover.</p></div><div class="bigshot"><img src="img/hammersmith-advanced.jpg" alt="Advanced editor"></div></div>
   </div>
 </section>
-<section class="sec dk" style="--acc:#d9822b">
+<section class="sec dk" id="safety" style="--acc:#d9822b">
   <div class="wrap">
     <div class="hd rv"><h2>Safety comes first.</h2><p class="lead">Your saves are precious. Hammersmith treats them that way.</p></div>
     <div class="fgrid">
-      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5zM8 4v5h7V4M8 20v-6h8v6"/></svg></span><h3>Backup before every save</h3><p>An automatic copy, and one-click restore.</p></div>
-      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M5 12l4 4 10-10"/></svg></span><h3>Write, then verify</h3><p>Each file is checked after writing, so a damaged save is never left behind.</p></div>
+      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5zM8 4v5h7V4M8 20v-6h8v6"/></svg></span><h3>Backup before every save</h3><p>The save slot is backed up automatically before anything is written.</p></div>
+      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M4 8l8-4 8 4v8l-8 4-8-4zM4 8l8 4 8-4M12 12v8"/></svg></span><h3>Back Up All</h3><p>Zip every save slot into one file. Restore All brings them all back in one click.</p></div>
+      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M5 12l4 4 10-10"/></svg></span><h3>Write, then verify</h3><p>Every save is written, re-read and checked before your real file is replaced.</p></div>
+      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></span><h3>Checksum fixed</h3><p>The save’s checksum is recalculated every time, so the game accepts it.</p></div>
       <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span><h3>Untouched stays untouched</h3><p>Anything you didn’t change is copied byte for byte.</p></div>
+      <div class="fc rv"><span class="n"><svg viewBox="0 0 24 24"><path d="M20 4C10 4 6 10 5 19M5 19l9-9M9 15h6"/></svg></span><h3>Nothing to install</h3><p>One small .exe. To uninstall, delete it.</p></div>
     </div>
+    <div class="bigshot rv" style="max-width:860px;margin-top:60px"><img src="img/hammersmith-back-up-all.jpg" alt="Back Up All"></div>
   </div>
 </section>
 <section class="sec" id="specs">
   <div class="wrap">
     <dl class="specs rv">
       <div><dt>Game</dt><dd>Heroes of Hammerwatch II (Steam)</dd></div>
-      <div><dt>Finds saves</dt><dd>Automatically, opening the newest slot</dd></div>
-      <div><dt>Names</dt><dd>Items, trinkets, buildings, classes and skills, read live from the game's own files</dd></div>
-      <div><dt>Advanced</dt><dd>A raw tree editor for every value in the town and hero data</dd></div>
-      <div><dt>Built with</dt><dd>Rust, as a single small .exe</dd></div>
-      <div><dt>Platform</dt><dd>Windows</dd></div>
+      <div><dt>Finds saves</dt><dd>Automatically, in your Steam save folder</dd></div>
+      <div><dt>Names</dt><dd>Items, trinkets, skills and buildings, read from your own game install</dd></div>
+      <div><dt>Install</dt><dd>None. A single small .exe</dd></div>
+      <div><dt>Built with</dt><dd>Rust</dd></div>
+      <div><dt>Requires</dt><dd>Windows 10 or 11 (64-bit)</dd></div>
     </dl>
   </div>
 </section>
